@@ -42,7 +42,7 @@ import javax.swing.event.DocumentListener;
 public class GUI extends JFrame
 {
 	// window width, height and font
-	public static final String TITLE = "Get intervals of guitar chord";
+	public static final String TITLE = "Chord Intervals";
 	public static final int W;
 	public static final int H;
 	public static final Font FONT = new Font("Segoe UI", Font.PLAIN, 14);
@@ -523,6 +523,7 @@ public class GUI extends JFrame
 	private void help()
 	{
 		JOptionPane.showMessageDialog(new JFrame(),
+				"To mute a string, click on its currently selected fret.\n\n" +
 				"Use the Edit (Alt + E) menu to modify instrument\n" +
 				"specs and save them as a preset.\n\n" +
 				"Use the Presets (Alt + P) menu to select and delete\n" +
